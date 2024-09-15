@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: #333;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+
+.skill{
+    /* border: 1px solid red; */
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 10px rgba(0, 0, 0, 0.22);
+  
+}
+.skill li{
+    list-style: none;
+    margin: 25px 0px;
+    padding: 10px;
+}
+
+.bar{
+    /* border: 1px solid green; */
+    display: block;
+    height: 20px;
+    background-color: #353648;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+
+.bar span{
+    /* border: 1px solid blueviolet; */
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,104,1)100%);
+    /* width: 40%; */
+}
+
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 74%;
+    animation: css 3s;
+}
+.js{
+    width: 50%;
+    animation: js 3s;
+}
+.react{
+    width: 40%;
+    animation: react 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 74%;
+    }
+
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+
+}
